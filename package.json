@@ -1,0 +1,49 @@
+{
+  "name": "react-grid-ssrm-tree-data-demo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "msw": {
+    "workerDirectory": "public"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.0.1"
+  },
+  "devDependencies": {
+    "@ag-grid-community/client-side-row-model": "^26.2.0",
+    "@ag-grid-community/core": "^26.2.0",
+    "@ag-grid-community/react": "^26.2.0",
+    "@ag-grid-enterprise/row-grouping": "^26.2.0",
+    "@ag-grid-enterprise/server-side-row-model": "^26.2.0",
+    "msw": "^0.36.3"
+  }
+}
